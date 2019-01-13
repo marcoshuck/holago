@@ -1,11 +1,9 @@
 /*
- *		Hello World
- *			GO
- *		Marcos Huck
- *	 marcos@huck.com.ar
+ *		Hola mundo
+ *		Un ejemplo de proyecto para Go Lang
+ *		Marcos Huck <marcos@huck.com.ar>
  *
  */
-
 package main
 
 import (
