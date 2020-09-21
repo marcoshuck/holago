@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package counter;
+
+service Counter {
+  rpc Increase(OperationInput) returns (OperationOutput) {}
+  rpc Decrease(OperationInput) returns (OperationOutput) {}
+  rpc Result(Empty) returns (ResultOutput) {}
+}
+
+message Empty {}
+
+message OperationInput {
+  int32 value = 1;
+}
+
+message OperationOutput {
+  int32 value = 1;
+  int32 result = 2;
+}
+
+message ResultOutput {
+  int32 result = 1;
+}
