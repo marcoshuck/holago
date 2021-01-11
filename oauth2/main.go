@@ -10,7 +10,7 @@ import (
 func main() {
 	config := oauth2.Config{
 		ClientID:     "4001a97e7452c32a4f22",
-		ClientSecret: "a99f2da953a83635f4ce0b41111ec15c147f26a0",
+		ClientSecret: "9c1e5cb6f5f420591535b9c98ac5e076e24ae1a5",
 		Endpoint:     github.Endpoint,
 	}
 
