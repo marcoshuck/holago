@@ -39,8 +39,5 @@ func TestDictionaryWhenPassingADifferentWord(t *testing.T) {
 }
 
 func GetDefinition(data map[string]string, key string) string {
-	if  {
-		
-	}
 	return data[key]
 }
